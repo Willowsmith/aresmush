@@ -1,0 +1,3 @@
+<div class="jumbotron-tagline">Welcome to Pathways!</div>
+
+Unforgettable stories await...

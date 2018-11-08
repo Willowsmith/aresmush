@@ -1,0 +1,20 @@
+---
+website:
+  sitemap_update_cron:
+    hour:
+    - 2
+    minute:
+    - 17
+  allow_html_in_markdown: true
+  max_upload_size_kb: 5000
+  character_gallery_group: Faction
+  character_gallery_subgroup: Position
+  portal_requires_registration: false
+  website_code_path: "/home/ares/ares-webportal"
+  left_sidebar: false
+  wiki_nav:
+  - Home
+  wiki_aliases:
+    main: home
+  restricted_pages:
+  - home

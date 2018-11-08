@@ -1,0 +1,12 @@
+---
+game: !ruby/hash:Sinatra::IndifferentHash
+  name: Pathways
+  category: Sci-Fi
+  description: An original science fiction MUSH featuring unique playable species,
+    a heavy focus on roleplay, and the ability to apply to create a playable speacies
+    of your own. A universe of intrigue, politics, trade, and maybe a little back
+    alley murder thrown in for spice.
+  website: pathways.ddns.net
+  public_game: false
+  game_status: In Development
+  status: In Development

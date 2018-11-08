@@ -1,0 +1,9 @@
+---
+manage:
+  shortcuts:
+    ex: examine
+    search: find
+    name: rename
+    nuke: destroy
+    wall: announce
+    about: version

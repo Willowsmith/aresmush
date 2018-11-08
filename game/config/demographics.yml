@@ -1,0 +1,113 @@
+---
+demographics:
+  census_fields:
+  - field: name
+    width: 28
+    title: Name
+  - field: demographic
+    width: 10
+    title: Gender
+    value: gender
+  - field: group
+    width: 20
+    title: Faction
+    value: Faction
+  - field: group
+    width: 20
+    title: Position
+    value: Position
+  demographics:
+  - actor
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - fullname
+  - gender
+  - birthdate
+  - callsign
+  disable_auto_shortcuts: false
+  editable_properties:
+  - fullname
+  - hair
+  - physique
+  - callsign
+  groups:
+    Faction:
+      desc: Station factions.
+      values:
+        Trade Nation: The conglomerate who owns Pathways Station
+        Theos Delegation: The nobles and diplomats who represent the Theos species
+          of note.
+        Rekkr Delegation: The members of the Rekkr species who make sure the Rekkr
+          peoples are not overlooked.
+        Araian Delegation: Representatives of the Araian people.
+        Tivona Delegation: Representatives of the Tivona people.
+        Solarian Federation of Worlds Delegation: Those originating from Earth or
+          the worlds surrounding it.
+        Golden Lords: A crime syndicate that is not public but is very much a felt
+          presence on the station.
+        Black Lotus: A crime syndicate that is subtle in its dealings but very powerful.
+        Shoda Clan: A crime family that is run very like the Yakuza on old Earth.
+    Department:
+      desc: The station is divided into several departments.
+      values: 
+    Homeworld:
+      desc: Your character's home world.
+      values:
+        Pathways Station: The station that is home to inumerable species.
+        Hjarta: Wild and untamed the capital world of the Rekkr people.
+        Akpa: Cultivated to the point of excess this is the capital world of the Theos.
+        Earth: Central world to the SFW civilizations.
+    Organization:
+      desc: The house, clan, or group within our faction.
+      values:
+        Section 13: "(Trade Nation only) Law enforcement for the Trade Nation and
+          has juristiction over the interior of Pathways Station."
+        Eos Division: "(Trade Nation only) Trade Nation Navy"
+        Shadow Force: "(Trade Nation only) Trade Nation Marines"
+        Hvedrungr Clan: "(Rekkr only) A Rekkr Clan know for their fierceness in battle."
+        Tungl Clan: "(Rekkr only) Rekkr Clan known for their skill in diplomacy."
+        Maerr Clan: "(Rekkr only) Rekkr Clan known for their nobility."
+        House Teras: "(Theos only) Theos House known for their lack of scruples."
+        House Chrimata: "(Theos only) Theos House known for economic skill."
+        House Spathi: "(Theos only) Theos House known for producing fine warriors."
+        Ethereal Vanguard: "(SFW only) Solarian Federation of Worlds Navy."
+        Sentry Force: "(SFW only) Solarian Federation of Worlds Marines."
+        Diplomatic Corps: "(SFW only) Solarian Federation of Worlds diplomats."
+        Merchant Union: Free union of merchants from any race.
+        Pilots Guild: Guild for free pilots of any race.
+        Valslongva Knorr: "(Rekkr only) Rekkr Navy"
+        Valslongva Hjorr: "(Rekkr only) Rekkr Marines"
+        Varomaor: "(Rekkr only) Rekkr Watchers"
+    Position:
+      desc: The specifics of your position within your Organization.
+      values: 
+  help_text:
+    actor: "%xcactor <actor>%xn - See 'help actors'."
+    physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
+    gender: "%xcgender <male/female/other>%xn"
+    hair: "%xchair <hair color>%xn"
+    eyes: "%xceyes <eye color>%xn"
+    skin: "%xcskin <complexion>%xn"
+    birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
+    callsign: "%xccallsign <callsign>%xn - Non-pilots may leave blank or enter a nickname."
+  max_age: 65
+  min_age: 18
+  nickname_field: callsign
+  nickname_format: "%{name} (%{nickname})"
+  required_properties:
+  - actor
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - fullname
+  - gender
+  - birthdate
+  shortcuts:
+    groups: group
+    homeworld: group homeworld
+    demographics: demographic
